@@ -1,0 +1,19 @@
+%option noyywrap
+%{
+int c = 0;
+int w = 0;
+int l = 0;
+%}
+%%
+[a-zA-Z]+ { w++; c += strlen(yytext); }
+\n { l++; }
+. { c++; }
+%%
+main(int argc, char **argv)
+{
+ yylex();
+ printf("Linii %8d\n", l);
+ printf("Cuvinte %8d\n", w);
+ printf("Caractere %8d\n", c);
+ return 0;
+}

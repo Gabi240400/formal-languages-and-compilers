@@ -1,0 +1,11 @@
++ - cifra
+p
+s t
+p q s t
+p,0 -> r
+p,+ -> q
+p,- -> q
+p,cifraNenula -> s
+q,cifraNenula -> s
+s,cifra -> t
+t,cifra -> t

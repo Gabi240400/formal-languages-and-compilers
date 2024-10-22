@@ -1,0 +1,18 @@
+VAR
+ccccccccc
+a:INTEGER;
+2b:INTEGER;
+d
+BEGIN
+READ(a);
+READ(b);
+IF a > b
+THEN
+a=a#-b;
+ELSE
+a=b-a;
+WRITE a;
+END
+4556a
+-26
+'cgs'

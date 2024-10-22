@@ -1,0 +1,11 @@
+S A B
++ - cifra
+S -> 0
+S -> + A
+S -> - A
+S -> cifraNenula B
+S -> cifraNenula K
+A -> cifraNenula B
+A -> cifraNenula
+B -> cifra B
+B -> cifra
